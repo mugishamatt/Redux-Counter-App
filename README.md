@@ -16,7 +16,8 @@ Must have react-redux installed version 7.2.0 or higher
 
 ### Installing
 ```
-In your terminal run npm install to install all the dependencies locally to your desktop
+In your terminal run npm install 
+to install all the dependencies locally to your desktop
 ```
 
 ## Deployment
