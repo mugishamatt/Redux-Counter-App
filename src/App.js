@@ -16,7 +16,7 @@ const initialState ={
 // We have to provide a function that will return the state. That function is called a reducer.
 //  The reducer’s job is to take the current state and an action and return the new state.
 function reducer(state = initialState, action){
-  console.log(state, action )
+  // console.log(state, action )
 
   // To make actions actually do something, we need to write some code in the reducer that 
   // will inspect the type of each action and update the state accordingly.
