@@ -14,14 +14,14 @@ function mapStateToProps( state ){
   }
 
 class Counter extends React.Component {
-        // state = { count : 0}  <--- Remove This
+        // state = { count : 0} <---Remove this
 
 
   increment = () =>{
 // ** Remove This code below*
-    // this.setState(
-    //     {count : this.state.count + 1}
-    // )
+    this.setState(
+        // {count : this.state.count + 1}
+    )
     this.props.dispatch({type: INCREMENT });
     }
 
