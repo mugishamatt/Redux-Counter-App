@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Redux Counter App
+We’re going to take an incremental approach, starting with a plain React app with component state, adding parts of Redux piece-by-piece.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+Fork and Clone this Repo to your local computer 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
+```
+Must have Node installed version 8.13.0 or higher
+Must Have NPM installed version 6.4.1 or higher 
+Must have redux installed version 4.0.5 or higher
+Must have react-redux installed version 7.2.0 or higher
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Installing
+```
+In your terminal run npm install 
+to install all the dependencies locally to your desktop
+```
 
-### `npm test`
+## Deployment
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**This App is deployed to Heroku**
 
-### `npm run build`
+In the terminal do the following:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+Step 1: brew tap heroku/brew && brew install heroku - only do this if you dont have Herouku installed to your Mac
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Step 2: Heroku Login - connects you to Heroku's CLI (Command Line)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Step 3: git remote - v (To check the remotes connected to your application, for ex:
 
-### `npm run eject`
+heroku  https://git.heroku.com/redux-incrementingr-app.git (fetch)
+heroku  https://git.heroku.com/redux-incrementingr-app.git (push)
+origin  https://github.com/niecey0123/Redux-Counter-App.git (fetch)
+origin  https://github.com/niecey0123/Redux-Counter-App.git (push)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+)
+Step 4: git add . (selects the changes that will be staged for the next commit, in this case targets all my files in my project)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Step 5: git commit -m 'heroku deployment'  (creates a snapshot of the staged changes)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Step 6: git push heroku master (pushes your appliction and deploys it to the Heroku platform)
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Built With
 
-## Learn More
+* [React](https://reactjs.org/) - The web framework used
+* [Node Package Mananger](https://docs.npmjs.com/cli/install) - Dependency Management
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Author
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+* **Shaniece Crumpler** - *Initial work* - [Niecey](https://github.com/niecey0123)
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Deployed Link 
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+ https://redux-incrementingr-app.herokuapp.com/
